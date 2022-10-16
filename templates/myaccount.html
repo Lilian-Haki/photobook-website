@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="/static/login.css">
     <link rel="stylesheet" href="/static/contact.css">
+    <link rel="stylesheet" href="/static/myaccount.css">   
     <title>Document</title>
 </head>
 <body>
@@ -22,43 +23,61 @@
       <div id="horizontall-line"></div>
       </div>
       <div class="store">
-      <a href="/templates/index.html">Store > </a>Contact
+      <a href="/templates/index.html">Store > </a>My Account
     </div><br/>
+
     <div class="auth">
-        <h1 class="auth">CUSTOMER SERVICE-CONTACT US</h1><br/>
+        <h1 style="text-align:center;" class="auth">MY ACCOUNT</h1>
         <div id="horizontal-line"></div>
         </div>
-    
-          <div class="contactus" >
-            <h1 class="heading" style="text-align:center;">Send A Message</h1><br/>
-            <div id="horizontal-line"></div>
-            <div class="row" class="formitems">
-                <div class="col-md-4">
-                <form>
-            <label>Subject Heading</label><br/>
-            <select placeholder="--Choose--">
-                <option value="">--Choose--</option>
-              <option value="">Customer Service</option>
-            </select><br/><br/>
-            <label>Email address</label><br/>
-            <input class="input" type="email"><br/><br/>
-            <label>Order reference</label><br/>
-            <input class="input" type="text"><br/><br/>
-            <label>Attach File</label><br/>
-            <input class="input"><br/>
-            <a href="#" class="btn btn-primary">Choose file</a><br/><br/>
-            <a href="#" class="btn btn-primary">SEND</a>
-        </div> 
-        <div class="col-md-8">
-<label>Message</label><br/>
-<input class="message" type="text">
-        </div>   
-        </form>
-    </div>
+        <div>
+        <P style="margin-left: 90px;text-align:center;">Welcome to your account.Here you can manage all of your personal information and orders</P>
+      </div>
+
+      <div class="main-container">
+        <div class="cards">
+
+          <a style="text-decoration:none;" href="/templates/orderhistory.html">
+          <div class="card card-1">
+            <h2 class="card__title">ORDER HISTORY AND DETAILS</h2>
           </div>
+        </a>
 
+          <a style="text-decoration:none;" href="/templates/mycreditslips.html">
+          <div class="card card-2">
+            <h2 class="card__title">MY CREDIT SLIPS</h2>
+          </div>
+        </a>
 
-    <div class="footer">
+        <a style="text-decoration:none;" href="/templates/myaddresses.html">
+          <div class="card card-3">
+            <h2 class="card__title">MY ADDRESSES</h2>
+          </div>
+        </a>
+
+          <a style="text-decoration:none;" href="/templates/mypersonalinfo.html">
+          <div class="card card-4">
+            <h2 class="card__title">MY PERSONAL INFORMATION</h2>
+          </div>
+        </a>
+
+          <a style="text-decoration:none;" href="/templates/myprojects.html">
+          <div class="card card-5">
+            <h2 class="card__title">MY PROJECTS</h2>
+          </div>
+        </a>
+
+          <a style="text-decoration:none;" href="/templates/myvouchers.html">
+          <div class="card card-1">
+            <h2 class="card__title">MY VOUCHERS</h2>
+          </div>
+        </a>
+
+        </div>
+      </div>
+    
+    
+        <div class="footer">
         <div class="row">
           <div class="col-md-3">
           <h1>STORE INFORMATIOM</h1>

@@ -31,6 +31,12 @@ nav{
     padding-left: 70px;
     color: gray;
 }
+.home a {
+color: gray;
+}
+.home a:hover{
+    color: blue;
+}
 .image{
     height: 450px;
     width:730px;

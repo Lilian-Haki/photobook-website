@@ -1,0 +1,19 @@
+.contactus{
+    -webkit-box-shadow:0px 0px 50px 30px #b61f1f ;
+    -moz-box-shadow:0px 0px 50px 30px #0026ff ;
+        box-shadow:  0px 30px 35px #2f00ff;
+        border-color: #ebe2e2;
+        width: 850px;
+        height: 550px;
+      padding: 10px;
+      border: 1px solid gray;
+      margin-left: 300px;
+      
+}
+.formitems{
+    display: flex;
+}
+.message{
+    height: 250px;
+    width: 450px;
+}
